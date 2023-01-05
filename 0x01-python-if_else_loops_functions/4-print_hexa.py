@@ -1,3 +1,3 @@
 #!/usr/bin/python3
-for n in range(0, 99):
-    print("{} = {}".format(n, hex(n)))
+for i in range(99):
+    print(f"{i} in decimal is {hex(i)} in hexadecimal")
